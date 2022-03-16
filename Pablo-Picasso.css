@@ -1,6 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
 body {
   background-color: rgb(194, 190, 190);
-  margin: 5rem 5rem 5rem 5rem;
+  margin: auto;
 }
 
 h1 {
@@ -10,22 +17,38 @@ h1 {
   color:black;
 }
 
-.divheader {
+header { 
+  margin: 20px;
+  background-color: gray;
+  box-sizing: border-box;
   text-align: center;
+  width: auto;
+  border-radius: 10%;
 }
 
-.imgheader {
+header img {
   border-radius: 10%;
   border: 10px solid rgba(0, 0, 0, 0.294);
+  width: 20%;
 }
-.pheader {
+  
+  
+
+header p {
   margin: 3rem;
   text-align: center;
+
 }
 
 
 
+li {
+ 
 
+ 
+
+
+}
 
 
 li::marker {
@@ -48,12 +71,13 @@ li::marker {
 
 
 
-nav {
+footer.nav {
+  display: inline-block;
     margin-top: 5rem;
 }
 
 
-}
+
 nav:visited {
     color: cornflowerblue;
 }
