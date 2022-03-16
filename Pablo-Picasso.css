@@ -1,6 +1,6 @@
 * {
-  padding: 0;
-  margin: 0;
+  padding: auto;
+  margin: auto;
   box-sizing: border-box;
 }
 
@@ -11,10 +11,11 @@ body {
 }
 
 h1 {
-    position: relative;
+  position: relative;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   color:black;
+  
 }
 
 header { 
@@ -30,6 +31,7 @@ header img {
   border-radius: 10%;
   border: 10px solid rgba(0, 0, 0, 0.294);
   width: 20%;
+  margin-top: 2rem;
 }
   
   
