@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(194, 190, 190);
+  margin: 5rem 5rem 5rem 5rem;
+}
+
+h1 {
+    position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color:black;
+}
+
+.divheader {
+  text-align: center;
+}
+
+.imgheader {
+  border-radius: 10%;
+  border: 10px solid rgba(0, 0, 0, 0.294);
+}
+.pheader {
+  margin: 3rem;
+  text-align: center;
+}
+
+
+
+
+
+
+li::marker {
+    color: darkblue;
+}
+
+
+.imgmain {
+    margin-top:5rem  ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+nav {
+    margin-top: 5rem;
+}
+
+
+}
+nav:visited {
+    color: cornflowerblue;
+}
+nav:hover {
+    background-color: gray;
+    color: white;
+}
+a:active {
+    color: black;
+}
