@@ -42,6 +42,11 @@ header p {
 
 }
 
+article {
+  font-size: 18px;
+  margin-left: 3.8%;
+}
+
 
 li::marker {
     color: darkblue;
@@ -61,14 +66,19 @@ li::marker {
 
 
 
-
+nav {
+  margin-left: 2.8%;
+}
 
 footer.nav {
   display: inline-block;
     margin-top: 5rem;
+    
 }
 
-
+footer img {
+  margin-left: 4.8%;
+}
 
 nav:visited {
     color: cornflowerblue;
